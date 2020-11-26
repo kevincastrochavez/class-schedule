@@ -1,9 +1,12 @@
 import React from "react";
+import Library from "./library/Library";
+import Schedule from "./schedule/Schedule";
 
 export default function Home() {
   return (
-    <div className="app">
-      <h1>Course Schedule</h1>
+    <div className="home">
+      <Library />
+      <Schedule />
     </div>
   );
 }
